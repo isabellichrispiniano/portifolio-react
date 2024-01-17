@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: aliceblue;
+}
+
+img{
+   position: relative;
+   right: -20rem;
+   height: 200px;
+}
+
+.textfooter{
+    color: aliceblue;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+  all:unset;
+  cursor: pointer;
+  margin: 1.1rem;
+  border-right: solid #dd4ea1;
+  padding-right: 1.2rem;
+}
+button:last-child{
+    border-right: none;
+}

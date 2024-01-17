@@ -1,0 +1,20 @@
+.sobre{
+    display: flex;
+}
+
+img{
+    position: relative;
+    padding: 80px;
+    right: -5rem;
+    height: 70px;
+}
+
+h1{
+    color: aliceblue;
+    padding: 80px;
+}
+
+footer{
+    color: aliceblue;
+    padding: 50px;
+}
