@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+}
+
+.icones{
+    display: flex;
+}
+
+.component img{
+    width: 100px;
+    right: 100px;
+}
+
+.component2 img{
+    width: 100px;
+    right: 100px;
+}
+
+.component3 img{
+    width: 100px;
+    right: 100px;
+}
+
+.component4 img{
+    width: 100px;
+    right: 100px;
+}
+
+.component5 img{
+    width: 100px;
+    right: 100px;
+}
+
+.component6 img{
+    width: 100px;
+    right: 100px;
+}
+
+

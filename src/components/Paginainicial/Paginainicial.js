@@ -6,10 +6,10 @@ function Paginainicial() {
     <>
       <main>
         <div>
-          <h1>Oi, me chamo Isabelli</h1>
+          <h1>Oi, me chamo <span>Isabelli</span></h1>
           <p>Sou desenvolvedora front-end</p>
         </div>
-        <img src={Logo} alt='logo' className='img-logo' />
+        <img src={Logo} alt='logo' className='img-logo'/>
       </main>
       <footer>
        <div className='textfooter'>

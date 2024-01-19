@@ -1,0 +1,80 @@
+.projeto{
+    display: flex;
+}
+
+.juncao{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px;
+}
+img{
+    position: relative;
+    padding: 80px;
+    right: -5rem;
+    height: 70px;
+}
+
+.temaum{
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    background-color: #26013F;
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+.temaum h2{
+  background-color: #26013F;
+  text-align: center;
+
+}
+
+.temaum button{
+    margin: 0 15px 15px;
+    padding: 0;
+    text-align: justify;
+}
+
+.temadois h2{
+    background-color: #26013F;
+    text-align: center;
+  
+}
+
+.temadois button{
+    margin: 0 15px 15px;
+    padding: 0;
+    text-align: justify;
+}
+
+.temadois{
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    background-color: #26013F;
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+.tematres h2{
+    background-color: #26013F;
+    text-align: center;
+  
+}
+
+.tematres button{
+    margin: 0 15px 15px;
+    padding: 0;
+    text-align: justify;
+}
+
+.tematres{
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    background-color: #26013F;
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+   

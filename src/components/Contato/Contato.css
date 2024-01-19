@@ -1,0 +1,33 @@
+.icone1 img{
+    position: relative;
+    left: 20rem;
+}
+
+.icone1 p{
+    position: relative;
+    left: 20rem;
+}
+
+.elements{
+    display: flex;
+}
+
+.icone2 img{
+    position: relative;
+    left: 32rem;
+}
+
+.icone2 p{
+    position: relative;
+    left: 30rem;
+}
+
+.icone3 img{
+    position: relative;
+    left: 42rem;
+}
+
+.icone3 p{
+    position: relative;
+    left: 42rem;
+}
