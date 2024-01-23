@@ -1,4 +1,5 @@
 import Logo from '../images/Logo.png';
+import Voltahome from '../Voltahome/Voltahome';
 import './Sobremim.css';
 
 
@@ -20,6 +21,7 @@ Desenvolvedor Full Stack é tão épica quanto derrotar Lord Voldemort. Desafios
 Horcruxes, e estou determinado a resolvê-los com a mesma coragem que usei para
 enfrentar as trevas. Lumos no código e avante, para construir um mundo digital repleto de
 possibilidades!</h3>
+  <Voltahome/> 
             </footer>
             
          </header>

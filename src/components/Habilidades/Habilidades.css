@@ -6,34 +6,14 @@
     display: flex;
 }
 
-.component img{
-    width: 100px;
+.icones img{
     right: 100px;
+    width: 100px;
 }
 
-.component2 img{
-    width: 100px;
-    right: 100px;
-}
-
-.component3 img{
-    width: 100px;
-    right: 100px;
-}
-
-.component4 img{
-    width: 100px;
-    right: 100px;
-}
-
-.component5 img{
-    width: 100px;
-    right: 100px;
-}
-
-.component6 img{
-    width: 100px;
-    right: 100px;
+h3{
+    left: 32rem;
+    background-color: #19002E;
 }
 
 

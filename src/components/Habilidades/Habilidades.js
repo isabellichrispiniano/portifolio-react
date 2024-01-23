@@ -1,10 +1,12 @@
 import Logo from '../images/Logo.png'
-import React from '../images/React.png'
+import site from '../images/React.png'
 import Javascript from '../images/javascript.png'
 import Css from '../images/css3.png'
 import Html from '../images/html5.png'
 import DBRelacional from '../images/dbrelacional.png'
 import NodeJS from '../images/Nodejs.png'
+import Voltahome from '../Voltahome/Voltahome'
+import {Link} from 'react-router-dom';
 import './Habilidades.css'
 
 function Habilidades(){
@@ -21,17 +23,17 @@ function Habilidades(){
 
             <div className='component'>
             <h3>React</h3>
-            <img src={React}/>
+            <Link to="/descricao-react"><img src={site}/></Link>
             </div>
 
             <div className='component2'>
             <h3>Javascript</h3>
-            <img src={Javascript}/>
+            <Link to="/descricao-javascript"><img src={Javascript}/></Link>
             </div>
 
             <div className='component3'>
-                <h4>Css 3</h4>
-                <img src={Css}/>
+                <h3>Css 3</h3>
+               <Link to="/descricao-css"><img src={Css}/></Link> 
             </div>
 
             <div className='component4'>
@@ -49,7 +51,7 @@ function Habilidades(){
                 <img src={NodeJS}/>
             </div>
             </div>
-
+            <Voltahome/> 
            </footer>
         </>
     )

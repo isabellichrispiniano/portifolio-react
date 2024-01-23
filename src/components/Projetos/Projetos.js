@@ -1,4 +1,5 @@
 import Logo from '../images/Logo.png'
+import Voltahome from '../Voltahome/Voltahome';
 import './Projetos.css'
 
 function Projetos() {
@@ -10,6 +11,7 @@ function Projetos() {
                     <h1>Meus Projetos</h1>
                 </div>
                 <footer>
+                <Voltahome/> 
                     <div className='juncao'>
                         <div className='temaum'>
                             <h2>QuantumQuidditch</h2>

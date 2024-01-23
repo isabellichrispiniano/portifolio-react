@@ -1,5 +1,7 @@
 import Logo from '../images/Logo.png';
 import './Paginainicial.css';
+import Voltahome from '../Voltahome/Voltahome'
+import {Link} from 'react-router-dom';
 
 function Paginainicial() {
   return (
@@ -13,10 +15,14 @@ function Paginainicial() {
       </main>
       <footer>
        <div className='textfooter'>
-         <button>Sobre mim</button>
+         {/* <button>Sobre mim</button>
          <button>Meus projetos</button>
          <button>Habilidades</button>
-         <button>Contato</button>
+         <button>Contato</button> */}
+         <Link to="sobremim">Sobre mim</Link>
+         <Link to="projetos">Meus projetos</Link>
+         <Link to="habilidades">Habilidades</Link>
+         <Link to="contato">Contato</Link>
        </div>
       </footer>
     </>

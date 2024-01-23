@@ -3,7 +3,7 @@ import Email from '../images/Email.png'
 import Linkedin from '../images/LInkedin.png'
 import Github from '../images/github.png'
 import './Contato.css'
-
+import Voltahome from '../Voltahome/Voltahome'
 
 function Contato() {
     return (
@@ -13,7 +13,9 @@ function Contato() {
                     <img src={Logo} alt='Logo' className='logotipo' />
                     <h1>Contato</h1>
                 </div>
-
+                <div className='voltahome'>
+                <Voltahome/> 
+                </div>
                 <footer>
                     <div className='elements'>
                     <div className='icone1'>
@@ -32,7 +34,7 @@ function Contato() {
                     </div>
                     </div>
                 </footer>
-
+               
             </header>
         </>
     )
